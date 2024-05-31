@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/sec_img"
+            android:layout_marginLeft="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img"></ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sec_textview1"
+            android:text="AFK Journey"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/sec_textview2"
+            android:layout_marginTop="5dp"
+            android:text="FARLIGHT"
+            android:textColor="#162577"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+            <TextView
+                android:id="@+id/sec_textview3"
+                android:text="In-app purchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="4.7 ★"
+            android:textSize="15dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+            <TextView
+                android:text="28K reviews"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="|"
+            android:textSize="30dp"
+           ></TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:src="@drawable/img_4"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+            </ImageView>
+            <TextView
+                android:text="1.0 GB"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="|"
+            android:textSize="30dp"
+            ></TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:src="@drawable/twelve"
+                android:layout_width="25dp"
+                android:layout_height="25dp">
+            </ImageView>
+            <TextView
+                android:text="28K reviews"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="|"
+            android:textSize="30dp"
+            ></TextView>
+
+    </LinearLayout>
+    <Button
+        android:layout_margin="10dp"
+        android:text="Install"
+        android:backgroundTint="#0420BA"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Button>
+    <com.google.android.material.imageview.ShapeableImageView
+        app:shapeAppearanceOverlay="@style/RoundedImage"
+        android:src="@drawable/img_1"
+        android:layout_width="370dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+    <ImageView
+        android:src="@drawable/about"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </ImageView>
+    <TextView
+        android:text="Fantasy Idile RPG"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    
+</LinearLayout>
